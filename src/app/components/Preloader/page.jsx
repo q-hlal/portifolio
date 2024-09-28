@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-"use client";
-=======
->>>>>>> 2585c59f5e09dd53232f5b65a35afa2ed5c8ab77
+'use client';
 import styles from './style.module.scss';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
