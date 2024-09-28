@@ -1,0 +1,28 @@
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    svg{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 130%;
+        height: 130%;
+        z-index: -1;
+        path{
+            fill: transparent;
+            stroke-width: 5px;
+            stroke: currentColor;
+            stroke-dasharray: 1210.709716796875;
+            stroke-dashoffset: -1210.709716796875;
+            transition: stroke-dashoffset 0.5s cubic-bezier(0.29, 0.68, 0.74, 1.02);
+        }
+    }
+    &:hover{                      
+        path {
+           stroke-dashoffset: 0;
+         }
+     }
+}
