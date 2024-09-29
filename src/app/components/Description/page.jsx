@@ -1,7 +1,7 @@
 "use client";
 import styles from './style.module.scss';
 import { useInView, motion } from 'framer-motion';
-import { Suspense, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { slideUp, opacity  , imgShow} from './animation';
 import Rounded from '../../common/RoundedButton';
 import Link from 'next/link';
